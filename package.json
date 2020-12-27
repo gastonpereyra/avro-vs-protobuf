@@ -1,0 +1,23 @@
+{
+  "name": "protobuf-vs-avro",
+  "version": "1.0.0",
+  "description": "Example to compare Avro vs Protobuf files",
+  "main": "generate-file.js",
+  "scripts": {
+    "generate-file": "node generate-file perfomance",
+    "decode-file": "node decode-file"
+  },
+  "keywords": [
+    "fizzmod",
+    "janis",
+    "avro",
+    "protobuf"
+  ],
+  "author": "Gastón Pereyra",
+  "license": "MIT",
+  "dependencies": {
+    "avro-js": "^1.10.1",
+    "lllog": "^1.1.2",
+    "protobufjs": "^6.10.2"
+  }
+}
