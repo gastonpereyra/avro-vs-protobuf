@@ -1,0 +1,12 @@
+syntax = "proto3";
+package exampleFile;
+
+message Example {
+  string name = 1;
+  bool isDev = 2;
+  int32 age = 3;
+}
+
+message Examples {
+  repeated Example examples = 1;
+}

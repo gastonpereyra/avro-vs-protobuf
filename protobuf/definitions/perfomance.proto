@@ -1,0 +1,12 @@
+syntax = "proto3";
+package perfomanceFile;
+
+message Perfomance {
+  string name = 1;
+  bool isDev = 2;
+  int32 age = 3;
+}
+
+message Perfomances {
+  repeated Perfomance items = 1;
+}
